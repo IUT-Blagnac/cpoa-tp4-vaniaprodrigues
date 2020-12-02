@@ -1,5 +1,7 @@
 package action;
 
-public interface ActionContext {
 
+public interface ActionContext<E> {
+
+		public E getContext();
 }
