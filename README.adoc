@@ -1,4 +1,4 @@
-= Design Patterns - TP4
+= Design Patterns - TP4 
 J.-M. Bruel <jbruel@gmail.com>
 v20.1 {localdate}
 :tdnum: TP4
