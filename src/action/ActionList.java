@@ -2,14 +2,10 @@ package action;
 
 public interface ActionList<E> extends Action<E> {
 	
-	public String title();
-	
-	boolean addActoin(Action<E> ac);
-	
-	boolean removeAction(Action<E> ac);
-	
-	int listSize();
-	
-	Action<E> getAction( int index);
+	 public String listTitle();
+	 
+	 public int size();
+	 
+	 public boolean addAction(Action<E> ac);
 	
 }
